@@ -13,3 +13,7 @@ def collatz(number):
         result = number // 2  # Integer division by 2 for even numbers
     else:
         result = 3 * number + 1  # 3n+1 formula for odd numbers
+
+    # Print the result with space separator and return it
+    print(result, end=' ')
+    return result
