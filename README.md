@@ -19,3 +19,10 @@ The program handles various error scenarios:
 1. Non-integer input.
 2. Non-positive integers.
 3. Keyboard interrupts.
+
+### Mathematical Background:
+The Collatz conjecture is an unsolved problem in mathematics. Despite its simple rules:
+- It has been verified for all numbers up to 2⁶⁸
+- No number has been found that doesn't eventually reach 1
+- The sequence length varies dramatically between numbers
+- It remains unproven whether every positive integer eventually reaches 1
