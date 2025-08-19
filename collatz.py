@@ -42,3 +42,13 @@ def main():
             number = collatz(number)
 
         print()  # Add a newline at the end for clean output
+
+        except ValueError:
+            # Handle non-integer input
+            print("Error: You must enter a valid integer. Please try again.")
+        except KeyboardInterrupt:
+            # Handle Ctrl+C gracefully
+            print("\n\nProgram interrupted by user.")
+        except Exception as e:
+            # Catch any other unexpected errors
+            print(f"An unexpected error occurred: {e}")
