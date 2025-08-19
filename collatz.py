@@ -23,3 +23,8 @@ def main():
     Main program that runs the Collatz sequence until it reaches 1.
     Handles user input and error checking.
     """
+
+    try:
+        # Get user input and convert to integer
+        user_input = input("Enter a positive integer: ")
+        number = int(user_input)
