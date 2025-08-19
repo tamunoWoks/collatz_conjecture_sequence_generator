@@ -52,3 +52,7 @@ def main():
         except Exception as e:
             # Catch any other unexpected errors
             print(f"An unexpected error occurred: {e}")
+
+# Run the program if this script is executed directly
+if __name__ == "__main__":
+    main()
