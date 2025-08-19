@@ -17,3 +17,9 @@ def collatz(number):
     # Print the result with space separator and return it
     print(result, end=' ')
     return result
+
+def main():
+    """
+    Main program that runs the Collatz sequence until it reaches 1.
+    Handles user input and error checking.
+    """
