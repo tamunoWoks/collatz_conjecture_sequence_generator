@@ -13,3 +13,9 @@ The algorithm follows these simple rules:
 - **Clean Output:** Sequences displayed in a readable, space-separated format.
 - **Robust Implementation:** Handles various edge cases and unexpected inputs.
 - **Well-Documented:** Clear comments and docstrings throughout the code.
+
+### Error Handling:
+The program handles various error scenarios:
+1. Non-integer input.
+2. Non-positive integers.
+3. Keyboard interrupts.
