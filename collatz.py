@@ -36,3 +36,7 @@ def main():
 
         print(f"Collatz sequence for {number}:", end=' ')
         print(number, end=' ')  # Print the starting number
+
+        # Continue applying Collatz function until we reach 1
+        while number != 1:
+            number = collatz(number)
