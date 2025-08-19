@@ -28,3 +28,8 @@ def main():
         # Get user input and convert to integer
         user_input = input("Enter a positive integer: ")
         number = int(user_input)
+
+        # Validate that the number is positive
+        if number <= 0:
+            print("Error: Please enter a positive integer greater than 0.")
+            return   
