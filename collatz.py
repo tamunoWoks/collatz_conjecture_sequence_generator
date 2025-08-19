@@ -33,3 +33,6 @@ def main():
         if number <= 0:
             print("Error: Please enter a positive integer greater than 0.")
             return   
+
+        print(f"Collatz sequence for {number}:", end=' ')
+        print(number, end=' ')  # Print the starting number
