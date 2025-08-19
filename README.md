@@ -34,3 +34,6 @@ This program is excellent for:
 - Practicing Python programming fundamentals
 - Studying number theory concepts
 - Demonstrating input validation and error handling
+
+### License:
+This project is open source and available under the MIT License.
