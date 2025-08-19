@@ -40,3 +40,5 @@ def main():
         # Continue applying Collatz function until we reach 1
         while number != 1:
             number = collatz(number)
+
+        print()  # Add a newline at the end for clean output
